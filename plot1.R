@@ -13,7 +13,6 @@ rs3<-select(rs2,Global_active_power)
 png("plot1.png",width=480,height=480)
 
 #copy the graph to the file
-hist(as.numeric(rs3$Global_active_power),col="red",main="Global Active Power"
-,xlab="Global Active Power (kilowatts)")
+hist(as.numeric(rs3$Global_active_power),col="red",main="Global Active Power",xlab="Global Active Power (kilowatts)")
 dev.off()
 }
